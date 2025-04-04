@@ -5,6 +5,7 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.gnss@1\.0-service\.legacy u:object_r:hal_gnss_default_exec:s0
 
 # Health HAL
+/(vendor|system/vendor)/bin/hw/android\.hardware\.health-service\.batteryless u:object_r:hal_health_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.health-service\.default u:object_r:hal_lineage_health_default_exec:s0
 
 # Light HAL
@@ -15,6 +16,9 @@
 
 # Power HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.power-service\.lineage-libperfmgr u:object_r:hal_power_default_exec:s0
+
+# PowerShare HAL
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.powershare@1.0-service\.default u:object_r:hal_lineage_powershare_default_exec:s0
 
 # Radio HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.radio@1\.4-service\.legacy   u:object_r:hal_radio_default_exec:s0
@@ -29,6 +33,7 @@
 
 # Vibrator HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.vibrator@1\.0-service\.lineage u:object_r:hal_vibrator_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.vibrator-service\.legacy       u:object_r:hal_vibrator_default_exec:s0
 
 # Wi-Fi HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.wifi@1\.0-service\.legacy u:object_r:hal_wifi_default_exec:s0
